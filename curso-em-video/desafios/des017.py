@@ -2,5 +2,4 @@
 from math import hypot
 co = float(input('Insira o cateto oposto:'))
 ca = float(input('Insira o cateto adjacente:'))
-hyp = hypot(co, ca)
-print('O triangulo retângulo que possui o cateto oposto {} e o cateto adjacente {} pois a hipotenusa {}.' .format(co, ca, hyp))
+print('O triangulo retângulo que possui o cateto oposto {} e o cateto adjacente {} possui a hipotenusa {}.' .format(co, ca, hypot(co, ca)))
